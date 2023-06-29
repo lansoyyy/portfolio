@@ -8,27 +8,33 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 final List<Education> educationList = [
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2019 - PRESENT",
+        "SCiVER IT Solutions\nSCiVER IT Solutions is a leading software company based in Ilocos Norte, Philippines, renowned for its unwavering commitment to technological innovation and cutting-edge solutions. With a passion for transforming businesses through digital advancements, SCiVER IT Solutions stands at the forefront of the industry, delivering exceptional software products and services.",
+    linkName: "www.scivercorp.com",
+    period: "March 2022 - PRESENT",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below.This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2018 - 2019",
+        "Cyber Ensemble\nCyber Ensemble is a dynamic and pioneering software outsourcing company located in Cagayan De Oro, Philippines. With a strong focus on harnessing digital potential, the company has established itself as a leader in delivering innovative and cutting-edge software solutions to clients worldwide.",
+    linkName: "www.cyberensemble.com",
+    period: "October 2022 - PRESENT",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2017 - 2018",
+        "YAHSHUA\nYahshua Company is a prominent outsourcing company based in the vibrant city of Cagayan De Oro, Philippines. With a strong commitment to delivering exceptional services, Yahshua Company has established itself as a trusted partner for businesses seeking reliable and cost-effective outsourcing solutions.",
+    linkName: "www.yahshuapayroll.com",
+    period: "JUNE 2023 - PRESENT",
   ),
   Education(
     description:
-        "This is a sample education and details about it is stated below. This is a sample education and details about it is stated below",
-    linkName: "www.flutterpanda.com",
-    period: "2016 - 2017",
+        "AlgoVision\nAlgo Vision is a dynamic and forward-thinking startup company based in Cagayan De Oro, Philippines, spearheading technological advancements and pushing the boundaries of innovation. Our mission is to bring cutting-edge solutions to industries and transform the way businesses operate through the power of algorithms and visionary thinking.",
+    linkName: "",
+    period: "2022 - PRESENT",
+  ),
+  Education(
+    description:
+        "Freelancing\nWith a strong commitment to understanding your unique business objectives, we collaborate closely with you to conceptualize, design, and develop tailor-made software solutions that align with your vision. We value open communication and maintain a transparent workflow throughout the development process, ensuring your feedback is incorporated at every stage.",
+    linkName: "",
+    period: "2021 - PRESENT",
   ),
 ];
 
