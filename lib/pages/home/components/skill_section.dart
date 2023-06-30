@@ -26,6 +26,18 @@ List<Skill> skills = [
     skill: "GoLang",
     percentage: 20,
   ),
+  Skill(
+    skill: "Firebase",
+    percentage: 60,
+  ),
+  Skill(
+    skill: "Tensorflow",
+    percentage: 30,
+  ),
+  Skill(
+    skill: "Google Cloud",
+    percentage: 40,
+  ),
 ];
 
 class SkillSection extends StatelessWidget {

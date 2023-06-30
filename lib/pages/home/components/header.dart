@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:web_portfolio/models/header_item.dart';
 import 'package:web_portfolio/utils/constants.dart';
 import 'package:web_portfolio/utils/screen_helper.dart';
@@ -8,7 +9,9 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 List<HeaderItem> headerItems = [
   HeaderItem(
     title: "MY GITHUB",
-    onTap: () {},
+    onTap: () async {
+      await launch('https://github.com/lansoyyy');
+    },
   ),
 ];
 
