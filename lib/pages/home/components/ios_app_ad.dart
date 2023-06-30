@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:web_portfolio/utils/constants.dart';
@@ -82,32 +81,6 @@ class IosAppAd extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            MouseRegion(
-                              cursor: SystemMouseCursors.click,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  color: kPrimaryColor,
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                height: 48.0,
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 28.0,
-                                ),
-                                child: TextButton(
-                                  onPressed: () {},
-                                  child: Center(
-                                    child: Text(
-                                      "EXPLORE MORE",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 13.0,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
                             SizedBox(
                               width: 10.0,
                             ),
